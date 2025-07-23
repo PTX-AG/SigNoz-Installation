@@ -2,6 +2,9 @@
 
 This repository contains a Bash script to automate the installation and setup of SigNoz, an open-source application performance monitoring and observability platform. The script installs and configures all necessary dependencies including ClickHouse, Zookeeper, and SigNoz itself on a Debian-based Linux system.
 
+**Note:** The original SigNoz installation did not include ClickHouse setup. This script adds ClickHouse installation and configuration, providing a streamlined, one-click solution for deploying SigNoz and its dependencies.
+
+
 ---
 
 ## Features
